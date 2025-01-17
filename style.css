@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.301), rgba(0, 0, 0, 0.6)), url('assets/images/banner.png');
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner h1 {
+    color: transparent;
+    background: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    -webkit-background-clip: text;
+    font-size: 40px;
+
+}
+
+.banner p {
+    color: #ffffffff;
+    width: 510px;
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 17px;
+}
+
+.banner button {
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    padding: 19px 91px;
+    letter-spacing: 4px;
+    color: rgba(49, 168, 221, 1);
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 268px;
+    height: 268px;
+    background-color: rgba(0, 0, 0, 0.645);
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+#course-content h2 {
+    color: rgba(51, 168, 219, 1);
+    margin-bottom: 16px;
+    letter-spacing: 4px;
+    width: 477px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#course-content p {
+    width: 880px;
+    line-height: 17px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #ffffffff;
+}
+
+.module {
+    background-color: rgba(37, 37, 37, 1);
+    border: 1px solid rgba(51, 168, 219, 1);
+    box-shadow: inset -2px 6px 4px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    padding: 16px 127px;
+    margin-bottom: 16px;
+    color: #ffffffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.module:hover {
+    transform: scale(1.1);
+}
+
+.module span {
+    color: rgba(51, 168, 219, 1);
+}
+
+#transform-world {
+    display: flex;
+    background-image: url(assets/images/woman-code.png);
+    height: 383px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    align-items: center;
+
+}
+
+#transform-world p {
+    margin-left: 176px;
+    font-size: 40px;
+    width: 284px;
+    line-height: 47px;
+    font-weight: 900;
+    color: #ffffffff;
+    filter: drop-shadow(3px 2px 0px rgba(51, 168, 219, 1))
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+#professional-challenges h2 {
+    width: 746px;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(51, 168, 219, 1);
+    line-height: 38px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#professional-challenges img {
+    margin-bottom: 16px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffffff;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffff;
+    background-image: linear-gradient(rgba(51, 168, 219, 0), rgba(51, 168, 219, 0.2), rgba(51, 168, 219, 0.2));
+}
+
+footer .dio-logo {
+    margin-bottom: 16px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+footer a {
+    font-weight: 700;
+    text-decoration: none;
+}
